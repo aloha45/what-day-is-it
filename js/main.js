@@ -16,10 +16,10 @@ submitBtn.addEventListener('click', ()=> {
     container.innerHTML=(daysOfWeek[dayToday])
     if (dayToday === 5) {
         text.innerText="Yes. It is:";
-        img.innerHTML='<img src="/images/yes.jpg">';
+        img.innerHTML='<img class="reaction" src="/images/yes.jpg">';
     } else {
         text.innerText="No. It is:";
-        img.innerHTML='<img src="/images/no.jpg">';
+        img.innerHTML='<img class="reaction" src="/images/no.jpg">';
     }
 });
 

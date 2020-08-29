@@ -1,3 +1,9 @@
+@media only screen and (max-width: 850px){
+    .reaction {
+        width: 350px
+    }
+}
+
 body {
     background-color: cornflowerblue;
     margin: 0 auto;
