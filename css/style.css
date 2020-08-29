@@ -3,3 +3,11 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+.info {
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 50px;
+}
