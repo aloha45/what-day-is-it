@@ -28,4 +28,5 @@ resetBtn.addEventListener('click', () => {
     text.innerText="";
     container.innerHTML="";
     img.innerHTML="";
+    confetti.stop();
 })
