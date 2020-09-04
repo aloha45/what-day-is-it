@@ -17,6 +17,7 @@ submitBtn.addEventListener('click', ()=> {
     if (dayToday === 5) {
         text.innerText="Yes. It is:";
         img.innerHTML='<img class="reaction" src="/images/yes.jpg">';
+        confetti.start();  
     } else {
         text.innerText="No. It is:";
         img.innerHTML='<img class="reaction" src="/images/no.jpg">';
