@@ -26,7 +26,7 @@ submitBtn.addEventListener("click", () => {
 	if (dayToday === 5) {
 		text.innerText = "Yes. It is:";
 		img.innerHTML = '<img class="reaction" src="/images/yes.jpg">';
-        confetti.start(2000, ["red", "#FFFFFF", "cornflowerblue"]);
+        confetti.start(2000, ["red", "#FFFFFF", "cornflowerblue", "pink", "green", "orange", "purple"]);
 	} else {
 		text.innerText = "No. It is:";
 		img.innerHTML = '<img class="reaction" src="/images/no.jpg">';
